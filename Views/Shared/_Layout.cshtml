@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link href="~/css/output.css" rel="stylesheet">
+    <link href="~/css/input.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+        <a asp-controller="Home" asp-action="Admin">Admin</a>
+    </header>
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="module" src="~/js/site.js"></script>
+</body>
+</html>
+

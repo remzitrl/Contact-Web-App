@@ -1,0 +1,49 @@
+﻿
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+header {
+    background-color: #f6f6f6; /* Koyu gri bir arka plan rengi */
+    padding: 10px 20px; /* İç boşluk */
+    display: flex;
+    justify-content: space-between; /* Elemanları sağa ve sola yerleştir */
+    align-items: center; /* Dikey ortalama */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Üstte görünmesini sağlar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Hafif bir gölge */
+}
+
+    header a {
+        color: black; /* Beyaz yazı rengi */
+        text-decoration: none; /* Alt çizgi olmadan bağlantı */
+        font-size: 18px; /* Yazı boyutu */
+        font-weight: bold; /* Kalın yazı */
+        margin-right: 20px; /* Sağ boşluk */
+        transition: color 0.3s ease; /* Renk değişiminde animasyon */
+    }
+
+        header a:hover {
+            color: #1e90ff; /* Üzerine gelindiğinde açık mavi renk */
+        }
+
+        header a:last-child {
+            margin-right: 0; /* Son bağlantının sağında boşluk bırakma */
+        }
