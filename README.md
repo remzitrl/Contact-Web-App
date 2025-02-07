@@ -13,7 +13,7 @@
   <h2>Tech Stack</h2>
   <ul>
     <li><strong>Frontend</strong>: React, Tailwind CSS</li>
-    <li><strong>Backend</strong>: Node.js or any backend framework of your choice</li>
+    <li><strong>Backend</strong>: ASP.Net Core</li>
     <li><strong>Database</strong>: Microsoft SQL Server (MSSQL)</li>
     <li><strong>Authentication (Optional)</strong>: Admin login system to restrict access to the message review page</li>
   </ul>
